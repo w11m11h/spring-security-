@@ -18,7 +18,7 @@
    </filter>
    <filter-mapping>
       <filter-name>springSecurityFilterChain</filter-name>
-      <url-pattern>*.html</url-pattern>
+      <url-pattern>/*</url-pattern>
    </filter-mapping>
 	
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->
@@ -41,7 +41,7 @@
 		
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
-		<url-pattern>/</url-pattern>
+		<url-pattern>*.html</url-pattern>
 	</servlet-mapping>
 	
 	<!-- UTF-8 한글처리 -->

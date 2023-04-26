@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="<c:out value="j_spring_security_check"></c:out>" method="post">
+	<form action="<c:out value="j_spring_security_check" />" method="post">
 		아이디 : <input  type="text" name="j_username"><br><br>
 		비밀번호 : <input type="text" name="j_password"><br><br>
 		<input type="submit" value="로그인">
